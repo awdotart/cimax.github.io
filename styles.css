@@ -492,11 +492,21 @@ body.theme-magnitudes {
 }
 
 
-.formula.mathjax-display {
+.formula.formula-block {
   overflow-x: auto;
   padding: .82rem .72rem;
 }
-.formula.mathjax-display mjx-container[jax="CHTML"] {
+.formula.formula-block mjx-container[jax="CHTML"] {
   margin: 0;
   font-size: 1.02em;
+}
+
+
+.toc li.toc-l2 a {
+  padding-left: .55rem;
+  font-size: .88rem;
+}
+.toc li.toc-l3 a {
+  padding-left: 1rem;
+  font-size: .84rem;
 }
