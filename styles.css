@@ -490,3 +490,13 @@ body.theme-magnitudes {
   font-family: "Space Grotesk", sans-serif;
   font-size: .95rem;
 }
+
+
+.formula.mathjax-display {
+  overflow-x: auto;
+  padding: .82rem .72rem;
+}
+.formula.mathjax-display mjx-container[jax="CHTML"] {
+  margin: 0;
+  font-size: 1.02em;
+}
